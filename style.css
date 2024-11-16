@@ -55,3 +55,58 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+@font-face {
+  font-family: 'Norse-Bold';
+  src: url(resources/Norse-Bold.otf);
+}
+
+a {
+  color: #fff;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.background {
+  background-image: url(resources/halie-west-25xggax4bSA-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  flex: 1;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-container {
+  position: relative;
+  top: 150px;
+  font-size: 46px;
+  font-family: 'Norse-Bold';
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.4);
+  justify-content: center;
+  padding: 1rem;
+}
+
+.logo-container img {
+  height: 3em;
+}
+
+.photo-credit {
+  margin-top: auto;
+  align-self: center;
+  padding: 1rem
+}
+
+.content {
+  flex: 2;
+}
